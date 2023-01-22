@@ -3,6 +3,7 @@ import App from "../App";
 import AuthWrapperComponent from "../views/auth/AuthWrapper.component";
 import DashboardComponent from "../views/auth/Dashboard.component";
 import TransactionsEPComponent from "../views/auth/TransactionsEP";
+import ErrorComponent from "../views/Error";
 import LoginComponent from "../views/Login.component";
 import OtpVerificationComponent from "../views/OtpVerification";
 import SetProfileComponent from "../views/SetProfile";
@@ -10,6 +11,7 @@ import SetProfileComponent from "../views/SetProfile";
 export const router = createHashRouter([
   {
     path: "/",
+    errorElement: <ErrorComponent />,
     element: <AuthWrapperComponent />,
     children: [
       {
