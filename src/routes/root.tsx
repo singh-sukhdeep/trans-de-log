@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import App from "../App";
 import AuthWrapperComponent from "../views/auth/AuthWrapper.component";
 import DashboardComponent from "../views/auth/Dashboard.component";
@@ -7,7 +7,7 @@ import LoginComponent from "../views/Login.component";
 import OtpVerificationComponent from "../views/OtpVerification";
 import SetProfileComponent from "../views/SetProfile";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <AuthWrapperComponent />,
