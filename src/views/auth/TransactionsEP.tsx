@@ -18,6 +18,7 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import CreateTransaction from "../../components/molecules/CreateTransaction";
+import FilterListIcon from '@mui/icons-material/FilterList';
 
 export default function TransactionsEPComponent() {
   const [checked, setChecked] = React.useState(["wifi"]);
@@ -87,28 +88,24 @@ function Item() {
 
 function PrimaryHeading() {
   return (
-    <Grid container spacing={1} mb={2}>
+    <Grid container spacing={1} mb={1}>
       <Grid item xs={8}>
         <Typography
           sx={{
-            fontSize: "1.1rem",
             fontFamily: "Roboto",
-            fontWeight: "bold",
             textOverflow: "ellipsis",
             whiteSpace: "nowrap",
             overflow: "hidden",
           }}
         >
-          Main transaction Item More text to
+          Main transaction Item More text to dajsdaksdgajsdga sdsakdgakjdgadjkg
         </Typography>
       </Grid>
       <Grid item xs={4}>
         <Typography
           sx={{
             textAlign: "end",
-            fontSize: "1.1rem",
             fontFamily: "Roboto",
-            fontWeight: "bold",
             color: "#2e7d32",
           }}
         >
