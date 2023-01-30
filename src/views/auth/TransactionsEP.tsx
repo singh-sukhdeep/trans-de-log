@@ -4,21 +4,17 @@ import ListItem from "@mui/material/ListItem";
 
 import ListItemText from "@mui/material/ListItemText";
 import ListSubheader from "@mui/material/ListSubheader";
-import MailIcon from "@mui/icons-material/Mail";
-import { deepOrange, deepPurple, green, teal } from "@mui/material/colors";
+import { teal } from "@mui/material/colors";
 
 import {
   Avatar,
   AvatarGroup,
-  Badge,
-  Chip,
   Grid,
   ListItemAvatar,
   Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import CreateTransaction from "../../components/molecules/CreateTransaction";
-import FilterListIcon from '@mui/icons-material/FilterList';
+import CreateTransaction from "../../components/molecules/CreateTransactionForm";
 
 export default function TransactionsEPComponent() {
   const [checked, setChecked] = React.useState(["wifi"]);
@@ -163,8 +159,6 @@ export function Tags() {
           src="/static/images/avatar/5.jpg"
         />
       </AvatarGroup>
-
-      
     </Box>
   );
 }
