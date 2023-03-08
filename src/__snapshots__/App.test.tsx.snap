@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders learn react link 1`] = `
+<div
+  className="App"
+>
+  <h2>
+    Sukhdeep
+  </h2>
+</div>
+`;
+
+exports[`renders learn react link 1`] = `
+<div
+  className="App"
+>
+  <h2>
+    Sukhdeep
+  </h2>
+</div>
+`;
