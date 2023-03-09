@@ -1,4 +1,5 @@
 import { Autocomplete, Chip, TextField } from "@mui/material";
+import { useEffect } from "react";
 
 
 interface Tag {
@@ -13,11 +14,16 @@ interface TagHandlerProps {
 
 }
 
+// TODO:REMOVE Sample test case .
 export function sum(a: number, b: number) {
     return a + b;
 }
 
 export function TagHandler({ tags, placeholder, fieldLabel }: TagHandlerProps) {
+
+    useEffect(() => {
+
+    }, []);
     return (
         <Autocomplete
             multiple
