@@ -29,7 +29,7 @@ export function TagHandler({ tags, placeholder, fieldLabel }: TagHandlerProps) {
     // Handle The change
     const handleAutoCompleteChange = (value: string[], reason: AutocompleteChangeReason, detail: AutocompleteChangeDetails<string> | undefined) => {
         console.log(value, reason, detail);
-        
+
     }
 
     return (
